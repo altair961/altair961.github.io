@@ -73,18 +73,13 @@
 				<li><a href="./tabs/tab-1.html" class="badge order" id="link-order"><span class="link-vis-switcher links" id="link-order">Make Order</span></a></li>
 			</ul> http://polygon.host-ed.me/test.html
 			</div> -->
-			<div class="tab">
-				<button >London</button>
-				<button >Paris</button>
-				<button >Tokyo</button>
-			  </div>
-
 				<ul class="mytabs" id="tabs" class="group">               
 					<li class="current">
-						<a class="tablinks" onclick="openCity(event, 'Welcome')" href="/content-pages/welcome.html" class="badge about"><span class="step-num">0 </span><span class="link-vis-switcher">Welcome</span></a></li>
+						<a  onclick="openCity(event, 'Welcome')" href="/content-pages/welcome.html" class="badge about"><span class="step-num">0 </span><span class="link-vis-switcher">Welcome</span></a></li>
 					<li>
-						<a class="tablinks" onclick="openCity(event, 'Products')" href="/content-pages/products.html" class="badge products"><span class="step-num">1 </span><span class="link-vis-switcher">Products</span></a></li>    
-					<li><a class="tablinks" onclick="openCity(event, 'Portfolio')" href="/content-pages/portfolio.html" class="badge portfolio"><span class="step-num">2 </span><span class="link-vis-switcher">Portfolio</span></a></li>         
+						<a  onclick="openCity(event, 'Products')" href="/content-pages/products.html" class="badge products"><span class="step-num">1 </span><span class="link-vis-switcher">Products</span></a></li>    
+					<li>
+						<a  onclick="openCity(event, 'Portfolio')" href="/content-pages/portfolio.html" class="badge portfolio"><span class="step-num">2 </span><span class="link-vis-switcher">Portfolio</span></a></li>         
 					<div id="link-order"><li><a href="/content-pages/make-order.html" class="badge order"><span class="link-vis-switcher">Make Order</span></a></li></div>
 				</ul>
 		<div class="blog group">
@@ -92,15 +87,11 @@
 				<div class="group">
 				</div>
 				<!-- <h1>Main</h1> -->
-
 				<div class="mytabs-container" id="tabs-container" class="group"> 
-					<div id="imp-container">	
-						Загрузка. Пожалуйста подождите...
-						  
-						  <object id="Welcome" class="tabcontent" type="text/html" data="Welcome.html"></object>
-						  <object id="Products" class="tabcontent" type="text/html" data="Products.html"></object>
-						  <object id="Portfolio" class="tabcontent" type="text/html" data="Portfolio.html"></object>
-						  
+					<div id="imp-container">							  
+						  <object  id="Welcome" class="tabcontent" type="text/html" data="Welcome.html"></object>
+						  <object style="display:none" id="Products" class="tabcontent" type="text/html" data="Products.html"></object>
+						  <object style="display:none" id="Portfolio" class="tabcontent" type="text/html" data="Portfolio.html"></object>
 					</div>
 				</div>
 				<!--
