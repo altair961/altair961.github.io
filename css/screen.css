@@ -1027,6 +1027,7 @@ a.badge {
 	height: 100%;
 	margin: 0em;
 	padding: 0em;
+max-width: 118em;
 	}
 #header {
 	background-color: #FFFFFF;
