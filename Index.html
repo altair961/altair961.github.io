@@ -13,6 +13,15 @@
 	<title>Polygon</title>
 	<style type="text/css"> 
 		@import url(css/screen.css) all;
+		.tabcontent{
+			
+		width: 100%;
+
+		height:100%;	
+			 /* display: block;
+			overflow: auto;  */
+
+		}
 	</style> <!-- all в данном случае препятствует IE6, IE7 прочесть эту таблицу стилей, затем условный оператор 
 				  помогает IE7 видеть таблицу стилей -->
 	<!--[if gte IE 7]><link rel="stylesheet" type="text/css" href="css/screen.css" /><![endif]-->	
@@ -62,17 +71,6 @@
 				<a href="/contact-us-tab.html" id="green-button"><span class="link-vis-switcher">Step 3: Contact us</span></a>
 			</div>
 		</div>
-               
-
-		<!--
-			<div id="nav">
-			<ul>
-				<li class="current"><a href="./tabs/tab-1.html" class="badge about"><span class="link-vis-switcher links"><span class="step-num">0 </span>Welcome</span></a></li>
-				<li><a href="./tabs/tab-1.html" class="badge products"><span class="link-vis-switcher links" ><span class="step-num">1 </span>Products <span id="prices"><span class="amp">&amp;</span> Prices</span></span></a></li>
-				<li><a href="./tabs/tab-1.html" class="badge portfolio"><span class="link-vis-switcher links"><span class="step-num">2 </span>Portfolio</span></a></li>
-				<li><a href="./tabs/tab-1.html" class="badge order" id="link-order"><span class="link-vis-switcher links" id="link-order">Make Order</span></a></li>
-			</ul> http://polygon.host-ed.me/test.html
-			</div> -->
 				<ul class="mytabs" id="tabs" class="group">               
 					<li class="current">
 						<a  onclick="openCity(event, 'Welcome')" href="#" class="badge about"><span class="step-num">0 </span><span class="link-vis-switcher">Welcome</span></a></li>
@@ -87,39 +85,17 @@
 				<div class="group">
 				</div>
 				<!-- <h1>Main</h1> -->
-				<div class="mytabs-container" id="tabs-container" class="group"> 
-					<div id="imp-container">							  
-						  <object  id="Welcome" class="tabcontent" type="text/html" data="Welcome.html"></object>
-						  <object style="display:none" id="Products" class="tabcontent" type="text/html" data="Products.html"></object>
-						  <object style="display:none" id="Portfolio" class="tabcontent" type="text/html" data="Portfolio.html"></object>
+				<!-- <div class="mytabs-container" id="tabs-container" class="group">  -->
+				<div>
+					<!-- <div id="imp-container">							   -->
+					<div class="mytabs-container" id="tabs-container" class="group">
+						<object style="display:none" id="Products" class="tabcontent" type="text/html" data="Products.html"></object>
+						<object  id="Welcome" class="tabcontent" type="text/html" data="Welcome.html"></object>
+						<object style="display:none;height:1000em" id="Portfolio" class="tabcontent" type="text/html" data="Portfolio.html"></object>
 					</div>
-				</div>
-				<!--
-				<div id="nav">
-					<a href="#" class="badge products"><span class="link-vis-switcher">Products <span class="amp">&amp;</span> Prices</span></a>
-					<a href="#" class="badge portfolio"><span class="link-vis-switcher">Portfolio</span></a>
-					<a href="#" class="badge about"><span class="link-vis-switcher">About us</span></a>
-					<a href="#" class="badge order"><span class="link-vis-switcher">Make Order</span></a>
 				</div>		
-		<!--
-				<div class="article shadow">
-					<h1 class="lede-of-main">Заголовок для article</h1>
-					<p class="date"><span>10</span> October</p>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis tortor id erat tempus porttitor nec eu ante. Aenean nec mi augue. Suspendisse neque nulla, tincidunt ut egestas non, accumsan vel magna. In lacus dui, ultricies vel tempus a, molestie vel velit. Mauris sit amet pretium lectus. Curabitur erat enim, tincidunt eget consequat ut, viverra cursus purus. Mauris accumsan mattis diam, et tincidunt lacus eleifend pharetra. In tincidunt feugiat nisl, eu fringilla lectus laoreet quis. Donec consequat felis id mauris pretium dignissim. Praesent ut condimentum odio.
-					</p>
-				</div> -->
-				
 			</div> <!-- /.main -->
-	   <!-- <div class="other group"> 
-				<h1>Other</h1>
-				<div class="recent-entries shadow">			
-					<p>
-						Sed neque eros, imperdiet id varius sit amet, adipiscing a nisi. Suspendisse aliquet, odio in venenatis malesuada, purus justo dignissim risus, ut dignissim nunc dui vitae augue. Nulla tincidunt consectetur turpis, et tristique nulla auctor at. Suspendisse potenti. Nunc in ipsum nec ipsum scelerisque fermentum quis quis tortor. Morbi sit amet leo a nisi consequat tristique. Pellentesque placerat mi nec dolor aliquet mattis. Donec porttitor varius dictum.
-					</p>
-				</div>
-			</div>    /.other -->
-		</div> <!-- /.blog -->
+	   </div> <!-- /.blog -->
 	</div> <!-- /page -->
 	<div id="footer"> 
 		<p class="copyright">
