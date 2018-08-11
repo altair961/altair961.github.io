@@ -10,18 +10,11 @@
 		не отображал страницу в 900пкс 
 	    искусственно умещая ее 
         в свои 320пкс и отключаем возможность зума, сейчас включено.-->
-	<title>Polygon</title>
+	<title>Rocket-Web</title>
 	<style type="text/css"> 
+		
+	
 		@import url(css/screen.css) all;
-		.tabcontent{
-			
-		width: 100%;
-
-		height:100%;	
-			 /* display: block;
-			overflow: auto;  */
-
-		}
 	</style> <!-- all в данном случае препятствует IE6, IE7 прочесть эту таблицу стилей, затем условный оператор 
 				  помогает IE7 видеть таблицу стилей -->
 	<!--[if gte IE 7]><link rel="stylesheet" type="text/css" href="css/screen.css" /><![endif]-->	
@@ -73,26 +66,27 @@
 		</div>
 				<ul class="mytabs" id="tabs" class="group">               
 					<li class="current">
-						<a  onclick="openCity(event, 'Welcome')" href="#" class="badge about"><span class="step-num">0 </span><span class="link-vis-switcher">Welcome</span></a></li>
+						<a  onclick="openCity(event, 'welcome')" href="#" class="badge about"><span class="step-num">0 </span><span class="link-vis-switcher">Welcome</span></a></li>
 					<li>
-						<a  onclick="openCity(event, 'Products')" href="#" class="badge products"><span class="step-num">1 </span><span class="link-vis-switcher">Products</span></a></li>    
+						<a  onclick="openCity(event, 'products')" href="#" class="badge products"><span class="step-num">1 </span><span class="link-vis-switcher">Products</span></a></li>    
 					<li>
-						<a  onclick="openCity(event, 'Portfolio')" href="#" class="badge portfolio"><span class="step-num">2 </span><span class="link-vis-switcher">Portfolio</span></a></li>         
+						<a  onclick="openCity(event, 'portfolio')" href="#" class="badge portfolio"><span class="step-num">2 </span><span class="link-vis-switcher">Portfolio</span></a></li>         
 					<div id="link-order"><li><a href="/content-pages/make-order.html" class="badge order"><span class="link-vis-switcher">Make Order</span></a></li></div>
 				</ul>
 		<div class="blog group">
 			<div class="main group">
-				<div class="group">
-				</div>
+				<!-- <div class="group">
+				</div> -->
 				<!-- <h1>Main</h1> -->
 				<!-- <div class="mytabs-container" id="tabs-container" class="group">  -->
 				<div>
-					<!-- <div id="imp-container">							   -->
+					<!-- <div id="imp-container">							    -->
 					<div class="mytabs-container" id="tabs-container" class="group">
-						<object style="display:none" id="Products" class="tabcontent" type="text/html" data="Products.html"></object>
-						<object  id="Welcome" class="tabcontent" type="text/html" data="Welcome.html"></object>
-						<object style="display:none;height:1000em" id="Portfolio" class="tabcontent" type="text/html" data="Portfolio.html"></object>
+						<object style="height:62em" id="welcome" class="tabcontent" type="text/html" data="welcome.html"></object>
+						<object style="display:none; height:55em" id="products" class="tabcontent" type="text/html" data="products.html"></object>
+						<object style="display:none; height:500em" id="portfolio" class="tabcontent" type="text/html" data="portfolio.html"></object>
 					</div>
+				<!-- </div> -->
 				</div>		
 			</div> <!-- /.main -->
 	   </div> <!-- /.blog -->
