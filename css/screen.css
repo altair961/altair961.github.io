@@ -1027,6 +1027,7 @@ a.badge {
 	height: 100%;
 	margin: 0em;
 	padding: 0em;
+	max-width: 110em;
 	}
 #header {
 	background-color: #FFFFFF;
@@ -1085,6 +1086,7 @@ a.badge {
 	float: left;
 	position: relative;
 	bottom: -8em;
+	max-width: 110em;
 	}
 #note {
 	position: relative;
