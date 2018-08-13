@@ -1071,7 +1071,7 @@ a.badge {
 	top: 1.5em;
 	}
 #nav-container div {
-	background:url(/images/descktop/pictures/note-e.png) no-repeat;
+	background:url(../images/desktop/pictures/note-e.png) no-repeat;
 
 	position: static;
 	display: block;
