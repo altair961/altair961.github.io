@@ -16,10 +16,10 @@ function openCity(evt, cityName) {
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos < 200) {
-    document.getElementById("navbar").style.display = "none";
+  if (currentScrollPos > 50) {
+    document.getElementById("header").style.display = "none";
   } else {
-    document.getElementById("navbar").style.display = "block";
+    document.getElementById("header").style.display = "block";
   }
   prevScrollpos = currentScrollPos;
 }
