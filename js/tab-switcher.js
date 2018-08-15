@@ -11,3 +11,14 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos < 200) {
+    document.getElementById("navbar").style.display = "none";
+  } else {
+    document.getElementById("navbar").style.display = "block";
+  }
+  prevScrollpos = currentScrollPos;
+}
