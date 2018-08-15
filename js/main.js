@@ -1,3 +1,4 @@
+//switch between tabs
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tab-content");
