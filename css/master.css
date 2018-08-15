@@ -21,3 +21,7 @@
 	visibility: hidden;
 	}
 /* end of self-clear floats */
+
+body {
+	background-color: blanchedalmond;
+}
