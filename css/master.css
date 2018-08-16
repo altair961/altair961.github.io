@@ -27,3 +27,21 @@
 body {
 	background-color: blanchedalmond;
 }
+
+/* 320px and more*/
+@media screen and (min-width: 320px) {
+	#search-field {
+		border: 0.25em solid #C1CED9;/*#CBE6FF; /*4px = 4 / 16*/
+		}
+	#search-field:focus{
+		background:url(/images/search.png) no-repeat /*#F1F8FF*/#E5F2FF;
+		border: 0.25em solid #336699; /*4px = 4 / 16*/	
+		}	
+}
+/* end of 320px and more */
+
+/* 1024px and more */
+@media screen and (min-width: 1024px) {
+}
+
+/* end of 1024px and more */
