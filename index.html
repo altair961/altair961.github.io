@@ -6,11 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="css/master.css" media="screen" />
 </head>
 <body>
-
-<h2>Tabs</h2>
-<p>Click on the buttons inside the tabbed menu:</p>
-
-
 <div id="page" class="group">
 	<div id="header" class="group">
 		<div id="logo">
@@ -25,35 +20,29 @@
 				</form>
 		</fieldset>
 	</div> <!-- /header -->
+	<div class="main group">
+		<div class="navbar">
+			<button class="tab" onclick="switchToPage(event, 'London')">London</button>
+			<button class="tab" onclick="switchToPage(event, 'Paris')">Paris</button>
+			<button class="tab" onclick="switchToPage(event, 'Tokyo')">Tokyo</button>
+		</div>
+			<div id="London" class="tab-content tab-selected">
+				<h3>London</h3>
+				<p>London is the capital city of England.</p>
+			</div>
+				<div id="Paris" class="tab-content tab-not-selected">
+				<h3>Paris</h3>
+				<p>Paris is the capital of France.</p>
+			</div>
+			<div id="Tokyo" class="tab-content tab-not-selected">
+				<h3>Tokyo</h3>
+				<p>Tokyo is the capital of Japan.</p>
+			</div>
+	</div> <!-- /.main -->
 </div>
 
 
 
-<div class="tab">
-	<button class="tablinks" onclick="openCity(event, 'London')">London</button>
-	<button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-	<button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
-<br />
-<br />
-<br />
-
-
-
-<div id="London" class="tab-content tab-selected">
-	<h3>London</h3>
-	<p>London is the capital city of England.</p>
-</div>
-
-<div id="Paris" class="tab-content tab-not-selected">
-	<h3>Paris</h3>
-	<p>Paris is the capital of France.</p>
-</div>
-
-<div id="Tokyo" class="tab-content tab-not-selected">
-	<h3>Tokyo</h3>
-	<p>Tokyo is the capital of Japan.</p>
-</div>
 
 
 		<div id="step-2" class="group">
@@ -63,7 +52,7 @@
 		</div>
 		<div class="portfolio">
 			<h2>3D (3d Studio Max)</h2>
-			<div id="navbar">
+			<div>
 				<img style="display:inline-block" src="./images/portfolio/VAZ-2101-1.jpg" alt="step-2" class="group" />
 			</div>
 			<img id="pic-portf" class="group" src="./images/portfolio/VAZ-2101-2.jpg" alt="step-2" class="group" />
@@ -85,6 +74,49 @@
 			<img id="pic-portf" class="group" src="./images/portfolio/Subaru(sketch).jpg" alt="step-2" class="group" />
 			<h2 id="portf-gr">Interfaces (CorelDRAW)</h2>
 			<img id="pic-portf" class="group" src="./images/portfolio/Login-menu.jpg" alt="step-2" class="group" />
+			<h2 id="portf-gr">Logotypes (CorelDRAW)</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/iSharky.jpg" alt="step-2" class="group" />
+			<h2 id="portf-gr">Business cards <span class="amp">&amp</span>Bookmarks (CorelDRAW)</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/Cards.jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Card-back.jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Bookmark.jpg" alt="step-2" class="group" />
+			<h2 id="portf-gr">Sketches</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/Rose-(sketch).jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/NY-(sketch).JPG" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Clown-(sketch).gif" alt="step-2" class="group" />
+			<h2 id="portf-gr">Logotypes (CorelDRAW)</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/iSharky.jpg" alt="step-2" class="group" />
+			<h2 id="portf-gr">Business cards <span class="amp">&amp</span>Bookmarks (CorelDRAW)</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/Cards.jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Card-back.jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Bookmark.jpg" alt="step-2" class="group" />
+			<h2 id="portf-gr">Sketches</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/Rose-(sketch).jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/NY-(sketch).JPG" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Clown-(sketch).gif" alt="step-2" class="group" />
+
+			<h2 id="portf-gr">Logotypes (CorelDRAW)</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/iSharky.jpg" alt="step-2" class="group" />
+			<h2 id="portf-gr">Business cards <span class="amp">&amp</span>Bookmarks (CorelDRAW)</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/Cards.jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Card-back.jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Bookmark.jpg" alt="step-2" class="group" />
+			<h2 id="portf-gr">Sketches</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/Rose-(sketch).jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/NY-(sketch).JPG" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Clown-(sketch).gif" alt="step-2" class="group" />
+
+			<h2 id="portf-gr">Logotypes (CorelDRAW)</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/iSharky.jpg" alt="step-2" class="group" />
+			<h2 id="portf-gr">Business cards <span class="amp">&amp</span>Bookmarks (CorelDRAW)</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/Cards.jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Card-back.jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Bookmark.jpg" alt="step-2" class="group" />
+			<h2 id="portf-gr">Sketches</h2>
+			<img id="pic-portf" class="group" src="./images/portfolio/Rose-(sketch).jpg" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/NY-(sketch).JPG" alt="step-2" class="group" />
+			<img id="pic-portf" class="group" src="./images/portfolio/Clown-(sketch).gif" alt="step-2" class="group" />
+
 		</div>
 	</body>
 </html>

@@ -1,5 +1,5 @@
 //switch between tabs
-function openCity(evt, cityName) {
+function switchToPage(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tab-content");
     for (i = 0; i < tabcontent.length; i++) {

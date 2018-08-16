@@ -1,3 +1,5 @@
+@import url("reset.css");
+
 .tab-content {
     padding: 6px 12px;
     border: 1px solid #ccc;
