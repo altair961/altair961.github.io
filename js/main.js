@@ -13,13 +13,26 @@ function switchToPage(evt, cityName) {
     evt.currentTarget.className += " active";
 }
 
+//hide an element on scrolling
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
-  if (currentScrollPos > 50) {
-    document.getElementById("header").style.display = "none";
+  if (currentScrollPos > 200) {
+    var header = document.getElementById("header");
+    header.style.display = "none";
+    document.getElementById("blog").style.width = "100%";
+    document.getElementById("blog").style.backgroundColor = "#E5F2FF";
+    
+    header.style.width = "0";
+    //header.style.position = "absolute";
   } else {
-    document.getElementById("header").style.display = "block";
+    var header = document.getElementById("header");
+    header.style.display = "block";
+    header.style.position = "relative";
+    header.style.width = "30%";
+    document.getElementById("blog").style.width = "60%";
+    document.getElementById("blog").style.backgroundColor = "#CRC";
+
   }
   prevScrollpos = currentScrollPos;
 }
