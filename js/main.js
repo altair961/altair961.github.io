@@ -30,7 +30,7 @@ var currentScrollPos = window.pageYOffset;
     header.style.display = "block";
     header.style.position = "relative";
     header.style.width = "30%";
-    document.getElementById("blog").style.width = "60%";
+    document.getElementById("blog").style.width = "70%";
     document.getElementById("blog").style.backgroundColor = "#CRC";
 
   }
