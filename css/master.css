@@ -32,18 +32,25 @@
 	.tab-selected {
 		display: block;    
 	}
+
 	#header {
 		background-color: #a7b1df;
 		width: 30%; /* 360px / 900px */
 		float:left;
 	}
+
 	#blog {
 		float:left;
 		background-color:  #E5F2FF; 
 		width: 70%;
 	}
+
 	#logo-search-set {
 		float: right;
+	}
+	
+	#logo-search-set img {
+		max-width: 100%;
 	}
 #page {
 	/* background-color: #FFFFFF;
