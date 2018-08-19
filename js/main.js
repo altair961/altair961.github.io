@@ -1,13 +1,13 @@
 //switch between tabs
 function switchToPage(evt, contentPage) {
-    var i, tabcontent, tablinks;
+    var i, tabcontent, tab;
     tabcontent = document.getElementsByClassName("tab-content");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tab = document.getElementsByClassName("tab");
+    for (i = 0; i < tab.length; i++) {
+        tab[i].className = tab[i].className.replace(" active", "");
     }
     document.getElementById(contentPage).style.display = "block";
     evt.currentTarget.className += " active";

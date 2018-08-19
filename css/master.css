@@ -208,10 +208,14 @@
     float: left; */
 	}
 
+	.active {
+		background-color: #FFFFFF;
+		color: #000000;
+	}
 	.horizontal-tab span {
 		font-family: Cambria, "Cambria Math", "Palatino", "Book Antiqua", Georgia, Calibri, Arial, serif;
-	font-size: 1.1em;
-	text-align: center;
+		font-size: 1.1em;
+		text-align: center;
 	}
 
 	/* .horizontal-tab:after {
