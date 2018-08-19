@@ -75,8 +75,7 @@
 /* 1024px logical pixels and higher */
 @media screen and (min-width: 1024px) {
 	.navbar {
-		margin-left: 5em;
-		
+		margin-left: 3.5em;
 	}
 
 	.tab-content {
@@ -144,8 +143,7 @@
 		text-align: center;
 		vertical-align: baseline;
 	}
-
-
+	
 	.horizontal-tab {
 		background-color: #336699;
 		color: #FFFFFF;
@@ -165,10 +163,13 @@
 		/* position: relative; */
 		bottom: -0.7em;
 		width: 5.6em;
+		height: 1.2em;
 		display: block;
 		font-family: Cambria, "Cambria Math", "Palatino", "Book Antiqua", Georgia, Calibri, Arial, serif;
-		width: 5em;
-		float:left;
+		width: 5.7em;
+		float: left;
+		margin-left: 1em;
+		margin-bottom: -0.4em;
 		/* padding-top: 1.2em;
 		padding-left: 0.5em;
 		padding-right: 0.5em;
@@ -207,7 +208,11 @@
     float: left; */
 	}
 
-
+	.horizontal-tab span {
+		font-family: Cambria, "Cambria Math", "Palatino", "Book Antiqua", Georgia, Calibri, Arial, serif;
+	font-size: 1.1em;
+	text-align: center;
+	}
 
 	/* .horizontal-tab:after {
 		-webkit-box-sizing: none;
