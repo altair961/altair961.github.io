@@ -10,6 +10,36 @@
 	}
 /* end of self-clear floats */
 
+/* lower than 320 logical pixels */
+@media screen and (max-width: 319px) {
+	.amp {
+		font-family: Baskerville, "Goudy", "Palatino", "Book Antiqua", Georgia, serif;
+		font-style: italic;
+	}
+
+	#title {
+		display: block;
+		background-color: #FFD280;
+		padding: 0.8em 5.33333333%; /* 48px / 900px */	
+		color: #000000;
+		font-size: 1.3em; 
+		font-style: normal;
+		font-weight: normal;
+		font-family: "Goudy Old Style", "Palatino", "Book Antiqua", Georgia, serif;	
+	}
+	
+	/* logo search set */
+	#smartphone-logo {
+		max-width: 100%;
+		display: block;
+	}
+
+	#desktop-logo {
+		display: none;
+	}
+	/* end of logo search set */
+}
+/* end of lower than 320 logical pixels */
 
 /* 320 logical pixels and higher */
 @media screen and (min-width: 320px) {
@@ -29,9 +59,16 @@
 		font-family: "Goudy Old Style", "Palatino", "Book Antiqua", Georgia, serif;	
 	}
 	
-	#logo-search-set img {
+	/* logo search set */
+	#smartphone-logo {
 		max-width: 100%;
+		display: block;
 	}
+
+	#desktop-logo {
+		display: none;
+	}
+	/* end of logo search set */
 }
 /* end of 320px and more */
 
@@ -67,9 +104,14 @@
 		float: right;
 	}
 
-	/* Logo search set */
-	#logo-search-set img {
+	/* logo search set */
+	#desktop-logo {
 		max-width: 100%;
+		display: block;
+	}
+
+	#smartphone-logo {
+		display: none;
 	}
 
 	#logo-search-set fieldset {
