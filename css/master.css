@@ -213,10 +213,23 @@
 		background-color: #FFFFFF;
 		color: #000000;
 	}
+
+	.horizontal-tab {
+		text-align: center;
+	}
+
 	.horizontal-tab span {
 		font-family: Cambria, "Cambria Math", "Palatino", "Book Antiqua", Georgia, Calibri, Arial, serif;
-		font-size: 1.1em;
+		font-size: 1em;
 		text-align: center;
+	}
+
+	.navbar a:hover {
+		background-color: #7799BB;
+	}
+
+	.navbar a.active:hover {
+		background-color: #FFFFFF;
 	}
 
 	/* .horizontal-tab:after {
