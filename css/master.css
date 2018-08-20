@@ -104,7 +104,7 @@
 		visibility: visible;
 		float: left;
 		margin-top: 5em;
-		margin-left: 15em;
+		margin-left: 11em;
 		margin-bottom: 3em;
 		-moz-box-shadow: 3px 6px 20px 2px rgba(119, 119, 119, 0.5);
 		-webkit-box-shadow: 3px 6px 20px 2px rgba(119, 119, 119, 0.5);
@@ -126,6 +126,12 @@
 		background-color: #DDEEBB;
 		visibility: visible;
 		color: #669966;
+	}
+
+	#contact-us-btn:active {
+		background-color: #669966;
+		visibility: visible;	
+		color: #FFFFFF;
 	}
 
 	button#contact-us-btn span  {
@@ -384,5 +390,18 @@
 		display: none;
 	}
 	/* end of logo search set */
+
+	#second-navbar {
+		background:url(../images/desktop/tips.png) no-repeat;
+		float:left;
+		width: 70%;
+
+	 background-color: #5981A5;
+	/*	display: block;
+		height: 100px;
+		width: 300px;
+		position: relative;
+		float: left; */
+	}
 }
 /* end of 1024px logical pixels and higher */
