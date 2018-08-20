@@ -391,17 +391,117 @@
 	}
 	/* end of logo search set */
 
-	#second-navbar {
-		background:url(../images/desktop/tips.png) no-repeat;
-		float:left;
-		width: 70%;
+	#step-num-lede {
+		font-family: Cambria, "Palatino", "Book Antiqua", Georgia, Calibri, Arial, serif;
+		font-size: 4.1em;
+		text-align: left;
+		font-weight: normal;
+		color: #7799BB;
+		}
+	#welcome-lede {
+		font-family: Cambria, Arial, Calibri, Georgia, serif;
+		font-size: 3em;
+		text-align: center;
+		font-weight: normal;
+		color: #000000;
+		margin-top: 0.5em;
+		}
+	#welcome-txt {
+		font-family: Cambria, Arial, Calibri, Georgia, serif;
+		text-align: center;
+		margin: 1em;
+		font-size: 1.5em;
+		float: left;
+		width: 44%;
+		line-height: 1.7em;
+		color: #727271;
+		}
 
-	 background-color: #5981A5;
-	/*	display: block;
-		height: 100px;
-		width: 300px;
+	#step-0 {
+		float: none;
+		display: block;
 		position: relative;
-		float: left; */
+		margin: 0;
+		border: 0;
+		padding: 1em;
+		text-align: center;
 	}
+	#pic-roc-st {
+		max-width: 40%;
+		float: none;
+		display: block;
+		margin: 2em;
+		}
+
+		#pic-resp {
+			float: left;
+			max-width: 50%;
+			margin: 0em;
+			}
+		#step-0 p {
+			font-family: Cambria, Arial, Calibri, Georgia, serif;
+			text-align: center;
+			margin: 0em;
+			font-size: 1.3em;
+			float: right;
+			display: inline;
+			line-height: 1.9em;
+			color: #727271;
+			width: 50%;
+			}
+
+			/* products >= 1024 */
+			#step-1 {
+				float: none;
+				display: block;
+				position: relative;
+				margin: 0;
+				border: 0;
+				padding: 1em;
+			}
+			#step-1 img{
+				max-width: 400px;
+				float: right;
+				display: block;
+				margin: 2em;
+			}
+				/*end of products >= 1024*/
+			
+				/* portfolio for >= 1024 */
+
+#step-2 {
+	float: none;
+	display: block;
+	position: relative;
+	margin: 0;
+	border: 0;
+	padding: 1em;
+	text-align: center;
+}
+.portfolio h2{
+	font-family: Cambria, Arial, Calibri, Georgia, serif;
+	font-size: 3em;
+	text-align: center;
+	font-weight: normal;
+	color: #000000;
+	margin-top: 0.5em;	
+	}
+#pic-roc-fly{
+	max-width: 300px;
+	float: right;
+	display: block;
+	margin: 0.1em;
+	}
+#pic-portf {
+	border: 0.1em double #CCCCCC;
+	margin: auto;
+	float: none;
+	padding: 0em;
+	display: block;
+	max-width: 60%;
+	margin-bottom: 2em;
+	}
+	
+/* end of portfolio >= 1024 */
 }
 /* end of 1024px logical pixels and higher */

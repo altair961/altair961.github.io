@@ -17,7 +17,7 @@ function switchToPage(evt, contentPage) {
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
-  if (currentScrollPos > 300) {
+  if (currentScrollPos > 500) {
     var header = document.getElementById("header");
     header.style.display = "none";
     document.getElementById("blog").style.width = "100%";
