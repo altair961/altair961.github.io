@@ -114,8 +114,8 @@
 		-webkit-border-radius: 5em;
 		-moz-border-radius: 5em;
 		display: block;
-		width: 7em;
-		height: 7em;
+		width: 8.5em;
+		height: 8.5em;
 		position: relative;
 		background-color: #99CC33;
 		display: block;
@@ -128,6 +128,10 @@
 		color: #669966;
 	}
 
+	button#contact-us-btn span  {
+		font-size: 1.2em;
+	}
+
 	#contact-us-btn span {
 		float: none;
 		background-color: none;
@@ -136,14 +140,28 @@
 		line-height: 1.2em;
 		position: relative;
 		top: 1.5em;
-		width: 90%;
 		padding: 0;
-		font-size: 1em;
 		text-decoration: none;
 		text-align: center;
 		vertical-align: baseline;
 	}
-	
+
+	#contact-us-btn:after {
+		border: 0.25475em dashed rgba(0,0,0,0.6);
+		border-color: #FFFFFF;
+		-webkit-border-radius: 5em;
+		-moz-border-radius: 5em;
+		box-shadow: none;
+		content: '';
+		display: block;
+		/* position: absolute; */
+		position: static;
+		margin-left: -0.085em;
+		margin-top: -4.4em;
+		width: 7em;
+		height: 7em;
+	}
+
 	.horizontal-tab {
 		background-color: #336699;
 		color: #FFFFFF;
@@ -249,22 +267,6 @@
 		top: 0.1875em;
 		left: 0.1875em;
 	} */
-
-	#contact-us-btn:after {
-		border: 0.25475em dashed rgba(0,0,0,0.6);
-		border-color: #FFFFFF;
-		-webkit-border-radius: 5em;
-		-moz-border-radius: 5em;
-		box-shadow: none;
-		content: '';
-		display: block;
-		/* position: absolute; */
-		position: static;
-		margin-left: -0.185em;
-		margin-top: -3.6em;
-		width: 5.835em;
-		height: 5.835em;
-	}
 	
 	#header {
 		background-color: #FFFFFF;
