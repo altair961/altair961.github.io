@@ -398,7 +398,10 @@ margin-bottom: 2em;
 		text-align: left;
 		font-weight: normal;
 		color: #7799BB;
+		padding-left: 0.3em;
+		padding-top: 0.3em;
 		}
+		
 	#content-title {
 		font-family: Cambria, Arial, Calibri, Georgia, serif;
 		font-size: 3em;
@@ -424,7 +427,7 @@ margin-bottom: 2em;
 		position: relative;
 		margin: 0;
 		border: 0;
-		padding: 1em;
+		
 		text-align: center;
 	}
 	#pic-roc-st {
@@ -458,7 +461,6 @@ margin-bottom: 2em;
 				position: relative;
 				margin: 0;
 				border: 0;
-				padding: 1em;
 				text-align: center;
 			}
 			#step-1 img{
@@ -472,13 +474,11 @@ margin-bottom: 2em;
 			
 				/* portfolio for >= 1024 */
 #step-2 {
-	padding: 1em;
 	float: none;
 	display: block;
 	position: relative;
 	margin: 0;
 	border: 0;
-	padding: 1em;
 	text-align: center;
 }
 .portfolio h2{
