@@ -21,7 +21,6 @@ var currentScrollPos = window.pageYOffset;
     var header = document.getElementById("header");
     header.style.display = "none";
     document.getElementById("blog").style.width = "100%";
-    document.getElementById("blog").style.backgroundColor = "#E5F2FF";
     
     header.style.width = "0";
     //header.style.position = "absolute";
