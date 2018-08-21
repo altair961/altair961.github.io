@@ -10,8 +10,8 @@
 	}
 /* end of self-clear floats */
 
-/* lower than 320 logical pixels */
-@media screen and (max-width: 319px) {
+/* 480 logical pixels and lower */
+@media screen and (max-width: 480px) {
 	.amp {
 		font-family: Baskerville, "Goudy", "Palatino", "Book Antiqua", Georgia, serif;
 		font-style: italic;
@@ -39,38 +39,7 @@
 	}
 	/* end of logo search set */
 }
-/* end of lower than 320 logical pixels */
-
-/* 320 logical pixels and higher */
-@media screen and (min-width: 320px) {
-	.amp {
-		font-family: Baskerville, "Goudy", "Palatino", "Book Antiqua", Georgia, serif;
-		font-style: italic;
-	}
-
-	#title {
-		display: block;
-		background-color: #FFD280;
-		padding: 0.8em 5.33333333%; /* 48px / 900px */	
-		color: #000000;
-		font-size: 1.3em; 
-		font-style: normal;
-		font-weight: normal;
-		font-family: "Goudy Old Style", "Palatino", "Book Antiqua", Georgia, serif;	
-	}
-	
-	/* logo search set */
-	#smartphone-logo {
-		max-width: 100%;
-		display: block;
-	}
-
-	#desktop-logo {
-		display: none;
-	}
-	/* end of logo search set */
-}
-/* end of 320px and more */
+/* end of 480px and lower */
 
 /* 1024px logical pixels and higher */
 @media screen and (min-width: 1024px) {
