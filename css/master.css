@@ -81,8 +81,9 @@
 	.tab-content {
 		background-color: #FFFFFF;
 		padding: 0em;
-		margin-right: 0.5em;
+		margin-right: 2em;
 		margin-left: 2em;
+margin-bottom: 2em;
 		border: 0.5em solid #336699;
 		border-radius: 1.5em;
 		-webkit-border-radius: 1.5em;
@@ -391,14 +392,14 @@
 	}
 	/* end of logo search set */
 
-	#step-num-lede {
+	#step-num {
 		font-family: Cambria, "Palatino", "Book Antiqua", Georgia, Calibri, Arial, serif;
 		font-size: 4.1em;
 		text-align: left;
 		font-weight: normal;
 		color: #7799BB;
 		}
-	#welcome-lede {
+	#content-title {
 		font-family: Cambria, Arial, Calibri, Georgia, serif;
 		font-size: 3em;
 		text-align: center;
@@ -406,7 +407,7 @@
 		color: #000000;
 		margin-top: 0.5em;
 		}
-	#welcome-txt {
+	#content-txt {
 		font-family: Cambria, Arial, Calibri, Georgia, serif;
 		text-align: center;
 		margin: 1em;
@@ -458,6 +459,7 @@
 				margin: 0;
 				border: 0;
 				padding: 1em;
+				text-align: center;
 			}
 			#step-1 img{
 				max-width: 400px;
@@ -465,11 +467,12 @@
 				display: block;
 				margin: 2em;
 			}
+			
 				/*end of products >= 1024*/
 			
 				/* portfolio for >= 1024 */
-
 #step-2 {
+	padding: 1em;
 	float: none;
 	display: block;
 	position: relative;
@@ -484,7 +487,9 @@
 	text-align: center;
 	font-weight: normal;
 	color: #000000;
-	margin-top: 0.5em;	
+	margin-top: 0.5em;
+	
+	
 	}
 #pic-roc-fly{
 	max-width: 300px;
@@ -500,6 +505,28 @@
 	display: block;
 	max-width: 60%;
 	margin-bottom: 2em;
+	}
+	
+	#product-txt {
+		font-family: Cambria, Arial, Calibri, Georgia, serif;
+		font-size: 1.5em;
+		text-align: center;
+		margin: 0em;
+		float: none;
+		width: 100%;
+		line-height: 1.7em;
+		color: #727271;
+	}
+
+	#portfolio-image-title {
+		font-family: Cambria, Arial, Calibri, Georgia, serif;
+		font-size: 1.5em;
+		text-align: center;
+		margin: 0em;
+		float: none;
+		width: 100%;
+		line-height: 1.7em;
+		color: #727271;
 	}
 	
 /* end of portfolio >= 1024 */
