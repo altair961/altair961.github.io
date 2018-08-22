@@ -17,21 +17,25 @@ function switchToPage(evt, contentPage) {
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
-  if (currentScrollPos > 500) {
+  if (currentScrollPos > 500 && window.innerWidth >= 1024) {
+    
     var header = document.getElementById("header");
     header.style.display = "none";
     document.getElementById("blog").style.width = "100%";
-    
+    document.getElementById("blog").style.backgroundColor = "#FFD280";
+  
     header.style.width = "0";
     //header.style.position = "absolute";
-  } else {
-    var header = document.getElementById("header");
-    header.style.display = "block";
-    header.style.position = "relative";
-    header.style.width = "30%";
-    document.getElementById("blog").style.width = "70%";
-    document.getElementById("blog").style.backgroundColor = "#CRC";
+  } else if(window.innerWidth >= 1024) {
+      var header = document.getElementById("header");
+      header.style.display = "block";
+      header.style.position = "relative";
+      header.style.width = "30%";
+      document.getElementById("blog").style.width = "70%";
+      document.getElementById("blog").style.backgroundColor = "#000000";
+  
+    }
 
-  }
+  
   prevScrollpos = currentScrollPos;
 }
