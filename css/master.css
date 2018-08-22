@@ -41,6 +41,14 @@
 }
 /* end of 480px and lower */
 
+/* 481 to 1023 logical pixels */
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+	body {
+		background-color: #669966;
+	}
+}
+/* end of 481 to 1023 logical pixels*/
+
 /* 1024px logical pixels and higher */
 @media screen and (min-width: 1024px) {
 	.navbar {
@@ -52,7 +60,7 @@
 		padding: 0em;
 		margin-right: 2em;
 		margin-left: 2em;
-margin-bottom: 2em;
+		margin-bottom: 2em;
 		border: 0.5em solid #336699;
 		border-radius: 1.5em;
 		-webkit-border-radius: 1.5em;
