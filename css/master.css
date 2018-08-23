@@ -43,9 +43,51 @@
 
 /* 481 to 1023 logical pixels */
 @media screen and (min-width: 481px) and (max-width: 1023px) {
+	.amp {
+		font-family: Baskerville, "Goudy", "Palatino", "Book Antiqua", Georgia, serif;
+		font-style: italic;
+	}
+
 	body {
 		background-color: #669966;
 	}
+	.badge.products span {
+		display: none;
+	}
+
+	.badge.products {
+		background-image:url(../images/smartphone/products.png);
+		box-shadow: 0.0625em 0.0625em 0.0625em rgba(255,255,255,0.5) inset, 0.0625em 0.0625em 0.125em rgba(0,0,0,0.2);
+		/* border: 0.0625em solid #afafaf; */
+		border-radius: 3.125em;
+		-webkit-border-radius: 3.125em;
+		-moz-border-radius: 3.125em;
+		display: block;
+		width: 6.25em;
+		height: 6.25em;
+		position: relative;
+		float: left;
+		cursor: pointer;
+			}
+			
+	.badge.products:hover {
+		background-color: #7799BB;
+	}
+
+	.badge.products:active{
+		background-color: #FFFFFF;
+	}
+
+	.badge.portfolio {
+		background-image:url(/images/smartphone/portfolio.png);
+		}
+	.badge.about {
+		background-image:url(/images/smartphone/about.png);
+		}
+	.badge.order {
+		background-image:url(/images/smartphone/order.png);
+		}
+	
 }
 /* end of 481 to 1023 logical pixels*/
 
@@ -53,6 +95,11 @@
 @media screen and (min-width: 1024px) {
 	.navbar {
 		margin-left: 3.5em;
+	}
+	
+	.amp {
+		font-family: Baskerville, "Goudy", "Palatino", "Book Antiqua", Georgia, serif;
+		font-style: italic;
 	}
 
 	.tab-content {
@@ -78,6 +125,7 @@
 	#contact-us-btn {
 		color: #FFFFFF;
 		text-transform: uppercase;
+		text-align: center;
 		font-weight: bold;
 		visibility: visible;
 		float: left;
@@ -92,11 +140,10 @@
 		-webkit-border-radius: 5em;
 		-moz-border-radius: 5em;
 		display: block;
-		width: 8.5em;
-		height: 8.5em;
+		width: 7em;
+		height: 7em;
 		position: relative;
 		background-color: #99CC33;
-		display: block;
 		cursor: pointer;
 	}
 
@@ -126,24 +173,25 @@
 		top: 1.5em;
 		padding: 0;
 		text-decoration: none;
-		text-align: center;
-		vertical-align: baseline;
+		vertical-align: baseline;	
+		top: 1.5em;
+		width: 90%;
 	}
 
 	#contact-us-btn:after {
 		border: 0.25475em dashed rgba(0,0,0,0.6);
 		border-color: #FFFFFF;
+		border-radius: 5em;
 		-webkit-border-radius: 5em;
 		-moz-border-radius: 5em;
 		box-shadow: none;
 		content: '';
 		display: block;
-		/* position: absolute; */
 		position: static;
-		margin-left: -0.085em;
-		margin-top: -4.4em;
-		width: 7em;
-		height: 7em;
+		margin-left: 0.4em;
+		margin-top: -3.6em;
+		width: 5.835em;
+		height: 5.835em; 	
 	}
 
 	.horizontal-tab {
@@ -162,7 +210,6 @@
 		-webkit-border-radius: 360px 360px 0 0;
 		-moz-border-radius: 360px 360px 0 0;
 		height: 1em;
-		/* position: relative; */
 		bottom: -0.7em;
 		width: 5.6em;
 		height: 1.2em;
@@ -171,7 +218,7 @@
 		width: 5.7em;
 		float: left;
 		margin-left: 1em;
-		margin-bottom: -0.4em;
+		margin-bottom: -0.39em;
 		cursor: pointer;
 		/* padding-top: 1.2em;
 		padding-left: 0.5em;
