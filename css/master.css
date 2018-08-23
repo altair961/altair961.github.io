@@ -7,7 +7,7 @@
 	height: 0;
 	clear: both;
 	visibility: hidden;
-	}
+}
 /* end of self-clear floats */
 
 /* 480 logical pixels and lower */
@@ -38,6 +38,10 @@
 		display: none;
 	}
 	/* end of logo search set */
+
+	#sub-header{
+		display: none;
+	}
 }
 /* end of 480px and lower */
 
@@ -48,9 +52,6 @@
 		font-style: italic;
 	}
 
-	body {
-		background-color: #669966;
-	}
 	.badge.products span {
 		display: none;
 	}
@@ -58,7 +59,6 @@
 	.badge.products {
 		background-image:url(../images/smartphone/products.png);
 		box-shadow: 0.0625em 0.0625em 0.0625em rgba(255,255,255,0.5) inset, 0.0625em 0.0625em 0.125em rgba(0,0,0,0.2);
-		/* border: 0.0625em solid #afafaf; */
 		border-radius: 3.125em;
 		-webkit-border-radius: 3.125em;
 		-moz-border-radius: 3.125em;
@@ -68,7 +68,7 @@
 		position: relative;
 		float: left;
 		cursor: pointer;
-			}
+	}
 			
 	.badge.products:hover {
 		background-color: #7799BB;
@@ -80,14 +80,122 @@
 
 	.badge.portfolio {
 		background-image:url(/images/smartphone/portfolio.png);
-		}
+	}
+
 	.badge.about {
 		background-image:url(/images/smartphone/about.png);
-		}
+	}
+
 	.badge.order {
 		background-image:url(/images/smartphone/order.png);
-		}
+	}
 	
+	/* logo search set */
+	#desktop-logo {
+		display: none;
+	}
+
+	#smartphone-logo {
+		max-width: 50%;
+		display: block;
+
+		margin: 0 auto;
+	}
+
+	#logo-search-set fieldset {
+		margin: 0 auto;
+		text-align: center;
+		display: block;		
+		max-width: 22.5em; /* 360 / 16 */
+		background-color: #FFFFFF;	
+	}
+
+	#logo-search-set form {
+		display: block;
+		text-align: center;
+		padding-right: 0.5em;
+		padding-left: 0.5em;
+		max-width: 100%;
+	}
+
+	#logo-search-set legend {
+		font-family: Calibri, Arial, "Helvetica Neue", Helvetica, sans-serif;
+		margin-left: 0.4em;
+		font-size: 0.8em;
+		text-align: center;
+		text-transform: capitalize;
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+	#search-field {
+		border: 0.25em solid #C1CED9;/*#CBE6FF; /*4px = 4 / 16*/
+		background:url(../images/search.png) no-repeat /*#F1F8FF*/#E5F2FF;
+		border-radius: 2em 2em 2em 2em; 
+		-webkit-border-radius: 2em 2em 2em 2em;
+		-moz-border-radius: 2em 2em 2em 2em;
+		padding: 0;
+		height: 1.7em;  
+		text-indent: 2.2em;
+	}
+
+	#search-field:focus{
+		background:url(../images/search.png) no-repeat /*#F1F8FF*/#E5F2FF;
+		border: 0.25em solid #336699; /*4px = 4 / 16*/	
+	}	
+
+	#submit {
+		width: 15%;
+		font-size: 1em;
+		font-weight: bold;
+		text-transform: capitalize;
+		display: inline;
+		height: 1.5em;
+		border-radius: 2em 2em 2em 2em; 
+		-webkit-border-radius: 2em 2em 2em 2em; 
+		-moz-border-radius: 2em 2em 2em 2em; 
+		border-width: 0.0625em;
+		border-style: solid;
+		border-color: #E6E6E6 #B3B3B3 #CCCCCC;
+		background: #E6E6E6;
+	}
+
+	#submit:hover {
+		font-size: 1em;
+		background: #B1DAFF;
+		background-image: -moz-linear-gradient(#5981A5, #B1DAFF);
+		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #7799BB),color-stop(1, #5981A5));
+		border-radius: 2em 2em 2em 2em; 
+		-webkit-border-radius: 2em 2em 2em 2em;
+		-moz-border-radius: 2em 2em 2em 2em;
+		cursor: pointer;	
+	}
+
+	#submit:active {
+		background: #B1DAFF;
+		font-size: 1em;
+		outline: none;
+		-moz-box-shadow: 0 0.0625em 0.25em rgba(0, 0, 0, 0.5) inset;
+		-webkit-box-shadow: 0 0.0625em 0.25em rgba(0, 0, 0, 0.5) inset;
+		box-shadow: 0 0.0625em 0.25em rgba(0, 0, 0, 0.5) inset;
+		border-radius: 2em 2em 2em 2em; 
+		-webkit-border-radius: 2em 2em 2em 2em; 
+		-moz-border-radius: 2em 2em 2em 2em; 
+	}
+
+	#submit::-moz-focus-inner {
+		border: 0;  /* Small centering fix for Firefox */
+	}
+		
+	#title {
+		display: none;
+	}
+	/* end of logo search set */
+
+	#sub-header{
+		display: none;
+	}
 }
 /* end of 481 to 1023 logical pixels*/
 
@@ -553,6 +661,9 @@
 		color: #727271;
 	}
 	
+	#sub-header{
+		display: block;
+	}
 /* end of portfolio >= 1024 */
 }
 /* end of 1024px logical pixels and higher */
