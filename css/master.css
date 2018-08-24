@@ -17,6 +17,16 @@
 		font-style: italic;
 	}
 
+	.tab-not-selected {
+		display: none;
+	}
+
+	.tab-selected {
+		display: block;    
+	}
+
+	
+
 	#title {
 		display: block;
 		background-color: #FFD280;
@@ -52,10 +62,23 @@
 		font-style: italic;
 	}
 
-	.badge.products span {
-		display: none;
+	.badge.welcome {
+		background-image:url(../images/smartphone/about.png);
+		box-shadow: 0.0625em 0.0625em 0.0625em rgba(255,255,255,0.5) inset, 0.0625em 0.0625em 0.125em rgba(0,0,0,0.2);
+		border-radius: 3.125em;
+		-webkit-border-radius: 3.125em;
+		-moz-border-radius: 3.125em;
+		display: block;
+		width: 6.25em;
+		height: 6.25em;
+		position: relative;
+		float: left;
+		cursor: pointer;
+		margin-top: 2em;
+		margin-left: 1em;
+		margin-right: 1em
 	}
-
+			
 	.badge.products {
 		background-image:url(../images/smartphone/products.png);
 		box-shadow: 0.0625em 0.0625em 0.0625em rgba(255,255,255,0.5) inset, 0.0625em 0.0625em 0.125em rgba(0,0,0,0.2);
@@ -68,28 +91,60 @@
 		position: relative;
 		float: left;
 		cursor: pointer;
+		margin-top: 2em;
+		margin-right: 1em;
 	}
-			
-	.badge.products:hover {
+	
+	.badge.portfolio {
+		background-image:url(../images/smartphone/portfolio.png);
+		box-shadow: 0.0625em 0.0625em 0.0625em rgba(255,255,255,0.5) inset, 0.0625em 0.0625em 0.125em rgba(0,0,0,0.2);
+		border-radius: 3.125em;
+		-webkit-border-radius: 3.125em;
+		-moz-border-radius: 3.125em;
+		display: block;
+		width: 6.25em;
+		height: 6.25em;
+		position: relative;
+		float: left;
+		cursor: pointer;
+		margin-top: 2em;
+		margin-right: 1em;
+	}
+
+	.horizontal-tab.contact-us {
+		background-image:url(../images/smartphone/order.png);
+		box-shadow: 0.0625em 0.0625em 0.0625em rgba(255,255,255,0.5) inset, 0.0625em 0.0625em 0.125em rgba(0,0,0,0.2);
+		border-radius: 3.125em;
+		-webkit-border-radius: 3.125em;
+		-moz-border-radius: 3.125em;
+		display: block;
+		width: 6.25em;
+		height: 6.25em;
+		position: relative;
+		float: left;
+		cursor: pointer;
+		margin-top: 2em;
+		margin-right: 1em;
+	}
+
+	.navbar{
+		margin: 0 auto;
+		display: block;
+		width: 31em;
+	}
+	
+	.badge:hover {
 		background-color: #7799BB;
 	}
 
-	.badge.products:active{
+	.badge:active{
 		background-color: #FFFFFF;
 	}
 
-	.badge.portfolio {
-		background-image:url(/images/smartphone/portfolio.png);
+	.badge span{
+		display: none;
 	}
 
-	.badge.about {
-		background-image:url(/images/smartphone/about.png);
-	}
-
-	.badge.order {
-		background-image:url(/images/smartphone/order.png);
-	}
-	
 	/* logo search set */
 	#desktop-logo {
 		display: none;
@@ -98,7 +153,6 @@
 	#smartphone-logo {
 		max-width: 50%;
 		display: block;
-
 		margin: 0 auto;
 	}
 
@@ -196,6 +250,16 @@
 	#sub-header{
 		display: none;
 	}
+
+	.tab-not-selected {
+		display: none;
+	}
+
+	.tab-selected {
+		display: block;    
+	}
+
+
 }
 /* end of 481 to 1023 logical pixels*/
 
@@ -239,7 +303,7 @@
 		float: left;
 		margin-top: 5em;
 		margin-left: 11em;
-		margin-bottom: 3em;
+		margin-bottom: 0em;
 		-moz-box-shadow: 3px 6px 20px 2px rgba(119, 119, 119, 0.5);
 		-webkit-box-shadow: 3px 6px 20px 2px rgba(119, 119, 119, 0.5);
 		box-shadow: 3px 6px 20px 2px rgba(119, 119, 119, 0.5);
@@ -328,42 +392,10 @@
 		margin-left: 1em;
 		margin-bottom: -0.39em;
 		cursor: pointer;
-		/* padding-top: 1.2em;
-		padding-left: 0.5em;
-		padding-right: 0.5em;
+	}
 
-		line-height: 1em;
-		font-weight: bold;
-		font-size: 1.3em;
-		border-top: 0.5em solid #336699;
-
-		border-bottom-left-radius: 3px;
-		background-color: #FFFFFF;
-		border-radius: 360px 360px 0 0;
-		-webkit-border-radius: 360px 360px 0 0;
-		-moz-border-radius: 360px 360px 0 0;
-		width: 8em;
-		height: 4em;
-		stroke-linecap: round; */
-		
-		/* color: #000000;
-		height: 1.2em;
-		position: relative;
-		bottom: -0.7em;
-		background-color: #FFFFFF;
-		font-family: Cambria, "Cambria Math", "Palatino", "Book Antiqua", Georgia, Calibri, Arial, serif; */
-	
-	
-		/* box-shadow: none;
-    border: 0.0625em solid #afafaf;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    display: block;
-    width: inherit;
-    height: 3.25em;
-    position: relative;
-    float: left; */
+	.horizontal-tab.contact-us {
+		display: none;
 	}
 
 	.active {
@@ -389,24 +421,6 @@
 		background-color: #FFFFFF;
 	}
 
-	/* .horizontal-tab:after {
-		-webkit-box-sizing: none;
-		-moz-box-sizing: none;
-		box-sizing: border-box;
-		border: 0;
-		border-radius: 0;
-		-webkit-border-radius: 0;
-		-moz-border-radius: 0;
-		box-shadow: none;
-		content: '';
-		display: block;
-		position: absolute;
-		width: 5.9375em;
-		height: 2.9375em;
-		top: 0.1875em;
-		left: 0.1875em;
-	} */
-	
 	#header {
 		background-color: #FFFFFF;
 		width: 30%; /* 360px / 900px */
