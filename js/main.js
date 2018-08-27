@@ -17,25 +17,27 @@ function switchToPage(evt, contentPage) {
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
-  if (currentScrollPos > 500 && window.innerWidth >= 1024) {
+  if (currentScrollPos  > 500) {
     
     var header = document.getElementById("header");
     header.style.display = "none";
-    document.getElementById("blog").style.width = "100%";
-    document.getElementById("blog").style.backgroundColor = "#FFD280";
-  
-    header.style.width = "0";
-    //header.style.position = "absolute";
-  } else if(window.innerWidth >= 1024) {
-      var header = document.getElementById("header");
-      header.style.display = "block";
-      header.style.position = "relative";
-      header.style.width = "30%";
-      document.getElementById("blog").style.width = "70%";
-      document.getElementById("blog").style.backgroundColor = "#000000";
-  
-    }
+    // document.getElementById("blog").style.className = element.className.toggle " narrowPage";
+    var blog = document.getElementById("blog");//.className.replace(/\bnarrowPage\b/g, "");
+    blog.className = blog.className.replace(/\bnarrowPage\b/g, "fullWidthPage");
+    //  document.getElementById("blog").style.className += " fullWidthPage";
+    // document.getElementById("blog").style.backgroundColor = "#FFD280";
 
-  
-  prevScrollpos = currentScrollPos;
+    header.style.width = "0";
+  } else {  
+        var header = document.getElementById("header");
+        header.style.display = "block";
+        header.style.position = "relative";
+        header.style.width = "30%";
+        var blog = document.getElementById("blog");//.className.replace(/\bnarrowPage\b/g, "");
+        blog.className = blog.className.replace(/\bfullWidthPage\b/g, "narrowPage");    
+        //document.getElementById("blog").style.className += " narrowPage";
+        // document.getElementById("blog").className.replace(/\bnarrowPage\b/g, "fullWidthPage");
+        // document.getElementById("blog").style.backgroundColor = "#000000";
+        }
+    prevScrollpos = currentScrollPos;
 }

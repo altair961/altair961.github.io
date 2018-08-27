@@ -62,6 +62,18 @@
 		font-style: italic;
 	}
 
+	.narrowPage {
+		float:left;
+		width: 70%;
+		background-color: violet;
+	}
+
+	.fullWidthPage {
+		float:left;
+		width: 100%;
+		background-color: yellowgreen;
+	}
+
 	.badge.welcome {
 		background-image:url(../images/smartphone/about.png);
 		box-shadow: 0.0625em 0.0625em 0.0625em rgba(255,255,255,0.5) inset, 0.0625em 0.0625em 0.125em rgba(0,0,0,0.2);
@@ -259,6 +271,49 @@
 		display: block;    
 	}
 
+/* welcome for 481 to 1023 logical pixels */
+#step-num {
+	font-family: Cambria, "Palatino", "Book Antiqua", Georgia, Calibri, Arial, serif;
+	font-size: 4.1em;
+	text-align: left;
+	font-weight: normal;
+	color: #7799BB;
+	padding: 0.2em;
+	}
+	
+#content-title {
+	font-family: Cambria, Arial, Calibri, Georgia, serif;
+	font-size: 3em;
+	text-align: center;
+	font-weight: normal;
+	color: #000000;
+	margin-top: 0.5em;
+	}
+.content-txt {
+	font-family: Cambria, Arial, Calibri, Georgia, serif;
+	text-align: center;
+	margin-top:2em;
+	margin-bottom:2em;
+	font-size: 1.5em;
+	float: none;
+	width: 100%;
+	line-height: 1.7em;
+	color: #727271;
+	}
+	
+#pic-roc-st {
+	max-width: 60%;
+	float: none;
+	display: block;
+	margin: 0em auto;
+	}
+#pic-resp {
+	float: none;
+	max-width: 60%;
+	display: block;
+	margin: 0em auto;
+	}
+/* end of welcome for 481 to 1023 logical pixels */
 
 }
 /* end of 481 to 1023 logical pixels*/
@@ -428,11 +483,6 @@
 		margin-top: 4.5em;
 	}
 
-	#blog {
-		float:left;
-		width: 70%;
-	}
-
 	#logo-search-set {
 		float: right;
 	}
@@ -556,7 +606,7 @@
 		color: #000000;
 		margin-top: 0.5em;
 		}
-	#content-txt {
+	.content-txt {
 		font-family: Cambria, Arial, Calibri, Georgia, serif;
 		text-align: center;
 		margin: 1em;
@@ -677,6 +727,18 @@
 	
 	#sub-header{
 		display: block;
+	}
+
+	.narrowPage {
+		float:left;
+		width: 70%;
+		background-color: violet;
+	}
+
+	.fullWidthPage {
+		float:left;
+		width: 100%;
+		background-color: yellowgreen;
 	}
 /* end of portfolio >= 1024 */
 }
