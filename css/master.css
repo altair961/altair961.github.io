@@ -333,6 +333,7 @@
 /* end of welcome for 481 to 1023 logical pixels */
 
 /* products for 481 to 1023 logical pixels */
+
 #step-1 img {
 	float: none;
 	max-width: 90%;
@@ -357,14 +358,14 @@
 #telephone{
 	margin: 0 auto;
 	display: block;
-	width: 31em;
+	max-width: 90%;
 }
 /* end of contact us for 481 to 1023 logical pixels*/
 
 }
 /* end of 481 to 1023 logical pixels*/
 
-/* 1024px logical pixels and higher */
+/* 1024 logical pixels and higher */
 @media screen and (min-width: 1024px) {
 	.navbar {
 		margin-left: 3.5em;
@@ -688,13 +689,13 @@
 		#step-0 p {
 			font-family: Cambria, Arial, Calibri, Georgia, serif;
 			text-align: center;
-			margin: 0em;
+			margin: 1em;
 			font-size: 1.3em;
 			float: right;
 			display: inline;
 			line-height: 1.9em;
 			color: #727271;
-			width: 50%;
+			width: 43%;
 			}
 
 			/* products >= 1024 */
@@ -715,7 +716,7 @@
 			
 				/*end of products >= 1024*/
 			
-				/* portfolio for >= 1024 */
+/* portfolio for 1024 logical pixels and higher */
 #step-2 {
 	float: none;
 	display: block;
@@ -799,6 +800,21 @@
 		width: 100%;
 		background-color: yellowgreen;
 	}
-/* end of portfolio >= 1024 */
+
+/* end of portfolio for 1024 logical pixels and higher */
+
+/* contact us for 1024 logical pixels and higher */
+
+#telephone {
+	float: right;
+	margin: 0 auto;
+	display: block;
+	max-width: 90%;
+}
+.contacts {
+	width: 90%;
+}
+/* end of contact us for 481 to 1023 logical pixels*/
+
 }
 /* end of 1024px logical pixels and higher */
