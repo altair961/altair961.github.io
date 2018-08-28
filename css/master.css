@@ -332,6 +332,27 @@
 	}
 /* end of welcome for 481 to 1023 logical pixels */
 
+/* products for 481 to 1023 logical pixels */
+#step-1 img {
+	float: none;
+	max-width: 90%;
+	display: block;
+	margin: 0em auto;
+}
+
+#product-txt {
+	font-family: Cambria, Arial, Calibri, Georgia, serif;
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0em;
+	float: none;
+	width: 100%;
+	line-height: 1.7em;
+	color: #727271;
+}
+
+/* end of products for 481 to 1023 logical pixels */
+
 /* contact us for 481 to 1023 logical pixels */
 #telephone{
 	margin: 0 auto;
