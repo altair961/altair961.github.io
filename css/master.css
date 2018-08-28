@@ -64,11 +64,23 @@
 
 	.narrowPage {
 		float:left;
-		width: 70%;
+		width: 100%;
 		background-color: violet;
 	}
 
 	.fullWidthPage {
+		float:left;
+		width: 100%;
+		background-color: yellowgreen;
+	}
+
+	.narrowHeader {
+		float:left;
+		width: 100%;
+		background-color: violet;
+	}
+
+	.fullWidthHeader {
 		float:left;
 		width: 100%;
 		background-color: yellowgreen;
@@ -478,7 +490,8 @@
 
 	#header {
 		background-color: #FFFFFF;
-		width: 30%; /* 360px / 900px */
+		/* width: 30%;  */
+		/* 360px / 900px */
 		float:left;
 		margin-top: 4.5em;
 	}
@@ -736,6 +749,18 @@
 	}
 
 	.fullWidthPage {
+		float:left;
+		width: 100%;
+		background-color: yellowgreen;
+	}
+
+	.narrowHeader {
+		float:left;
+		width: 30%;
+		background-color: violet;
+	}
+
+	.fullWidthHeader {
 		float:left;
 		width: 100%;
 		background-color: yellowgreen;

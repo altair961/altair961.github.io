@@ -17,27 +17,16 @@ function switchToPage(evt, contentPage) {
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
-  if (currentScrollPos  > 500) {
-    
+  if (currentScrollPos  > 650) {   
     var header = document.getElementById("header");
-    header.style.display = "none";
-    // document.getElementById("blog").style.className = element.className.toggle " narrowPage";
-    var blog = document.getElementById("blog");//.className.replace(/\bnarrowPage\b/g, "");
+    var blog = document.getElementById("blog");
     blog.className = blog.className.replace(/\bnarrowPage\b/g, "fullWidthPage");
-    //  document.getElementById("blog").style.className += " fullWidthPage";
-    // document.getElementById("blog").style.backgroundColor = "#FFD280";
-
-    header.style.width = "0";
+    header.className = header.className.replace(/\bnarrowHeader\b/g, "fullWidthHeader");
   } else {  
         var header = document.getElementById("header");
-        header.style.display = "block";
-        header.style.position = "relative";
-        header.style.width = "30%";
-        var blog = document.getElementById("blog");//.className.replace(/\bnarrowPage\b/g, "");
+        header.className = header.className.replace(/\bfullWidthHeader\b/g, "narrowHeader");
+        var blog = document.getElementById("blog");
         blog.className = blog.className.replace(/\bfullWidthPage\b/g, "narrowPage");    
-        //document.getElementById("blog").style.className += " narrowPage";
-        // document.getElementById("blog").className.replace(/\bnarrowPage\b/g, "fullWidthPage");
-        // document.getElementById("blog").style.backgroundColor = "#000000";
-        }
+    }
     prevScrollpos = currentScrollPos;
 }
