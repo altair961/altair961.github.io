@@ -301,18 +301,23 @@
 	color: #000000;
 	margin-top: 0.5em;
 	}
+
 .content-txt {
+	padding: 2em;
 	font-family: Cambria, Arial, Calibri, Georgia, serif;
 	text-align: center;
 	margin-top:2em;
 	margin-bottom:2em;
 	font-size: 1.5em;
-	float: none;
-	width: 100%;
 	line-height: 1.7em;
 	color: #727271;
-	}
+	max-width: 90%;
+	float: none;
+	display: block;
+	margin: 0em auto;
 	
+}
+
 #pic-roc-st {
 	max-width: 60%;
 	float: none;
@@ -326,6 +331,14 @@
 	margin: 0em auto;
 	}
 /* end of welcome for 481 to 1023 logical pixels */
+
+/* contact us for 481 to 1023 logical pixels */
+#telephone{
+	margin: 0 auto;
+	display: block;
+	width: 31em;
+}
+/* end of contact us for 481 to 1023 logical pixels*/
 
 }
 /* end of 481 to 1023 logical pixels*/
