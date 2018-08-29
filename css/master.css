@@ -25,8 +25,6 @@
 		display: block;    
 	}
 
-	
-
 	#title {
 		display: block;
 		background-color: #FFD280;
@@ -47,12 +45,148 @@
 	#desktop-logo {
 		display: none;
 	}
+
+	#logo-search-set fieldset {
+		margin: 0 auto;
+		text-align: center;
+		display: block;		
+		background-color: #000000;
+	}
+
+	#logo-search-set form {
+		
+	background-color: none;	
+	display: block;
+	text-align: center;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	padding-bottom: 1em;
+	vertical-align: top;
+	line-height: 1em;
+	}
+
+	#logo-search-set legend {
+		font-family: Calibri, Arial, "Helvetica Neue", Helvetica, sans-serif;
+		color: #FFFFFF;
+		margin-left: 0.4em;
+		font-size: 0.8em;
+		text-transform: uppercase;
+		display: block; 
+		margin: 0;
+		padding: 0;
+	
+	}
+
+
+	#search-field {	height: 1.7em;  
+		line-height: 1.4em; 
+		border: 0.0625em;
+		text-indent: 2.2em;
+		border-radius: 2em 2em 2em 2em; 
+		-webkit-border-radius: 2em 2em 2em 2em;
+		-moz-border-radius: 2em 2em 2em 2em;
+		padding: 0;
+		width: 60%; 
+		display: inline;
+		background: url(../images/search.png) no-repeat #FFFFFF;	
+		margin: 1%;
+	
+	}
+	#submit {
+		font-family: Calibri, Arial, "Helvetica Neue", Helvetica, sans-serif;
+		cursor: pointer;	
+		width: 13%;
+		font-size: 1em;
+		font-weight: bold;
+		text-transform: capitalize;
+		display: inline;
+		height: 1.5em;
+		border-radius: 2em 2em 2em 2em; 
+		-webkit-border-radius: 2em 2em 2em 2em; 
+		-moz-border-radius: 2em 2em 2em 2em; 
+		border-width: 0.0625em;
+		border-style: solid;
+		border-color: #B1DAFF #668098 #336699;
+		background: #B1DAFF;
+		padding: 0;
+	}
+
+	#submit:hover {
+		font-size: 1em;
+		background: #B1DAFF;
+		background-image: -moz-linear-gradient(#5981A5, #B1DAFF);
+		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #B1DAFF),color-stop(1, #5981A5));
+		border-radius: 2em 2em 2em 2em; 
+		-webkit-border-radius: 2em 2em 2em 2em; 
+		-moz-border-radius: 2em 2em 2em 2em; 
+		}
+	#submit:active {
+		background: #B1DAFF;
+		font-size: 1em;
+		outline: none;
+		-moz-box-shadow: 0 0.0625em 0.25em rgba(0, 0, 0, 0.5) inset;
+		-webkit-box-shadow: 0 0.0625em 0.25em rgba(0, 0, 0, 0.5) inset;
+		box-shadow: 0 0.0625em 0.25em rgba(0, 0, 0, 0.5) inset;
+		border-radius: 2em 2em 2em 2em; 
+		-webkit-border-radius: 2em 2em 2em 2em; 
+		-moz-border-radius: 2em 2em 2em 2em; 
+		}
+	#submit::-moz-focus-inner {
+		border: 0;  /* Small centering fix for Firefox */
+		}
+	
+		
+	#title {
+		display: none;
+	}
+
+	#search-field:focus{
+		background:url(../images/search.png) no-repeat #FFFCCC;
+		outline: none;	
+	}	
+
+
+
 	/* end of logo search set */
 
+	
 	#sub-header{
 		display: none;
 	}
+
+	.navbar a { 
+		color: #369;
+		outline: none;
+		display: block;
+		margin: 0.0625em 0em 0.0625em 0em;
+		background-color: #C1CED9;
+		text-align: center;
+		padding: 0.5em 0em 0.5em 0em;
+		font-size: 1.5em;
+		cursor: pointer;
+	}
+
+	.navbar a:hover { 
+		color: #39C;
+		outline: none;
+		display: block;
+		margin: 0.0625em 0em 0.0625em 0em;
+		background-color: #C1CED9;
+		text-align: center;
+		padding: 0.5em 0em 0.5em 0em;
+		font-size: 1.5em;
+		cursor: pointer;
+	}
+
+	/* contact us for 480 logical pixels and lower */
+	#telephone {
+		margin: 0 auto;
+		display: block;
+		max-width: 90%;
+	}
+	/* end of contact us for 480 logical pixels and lower */
 }
+
 /* end of 480px and lower */
 
 /* 481 to 1023 logical pixels */
