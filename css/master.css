@@ -225,13 +225,14 @@
 		text-align: center;
 		font-weight: normal;
 		color: #000000;
-		width: 90%;
 		float: none;
 		margin: 0em auto;	
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
 	}
 
 	.content-txt {
-		padding: 2em;
+		padding: 0.5em;
 		font-family: Cambria, Arial, Calibri, Georgia, serif;
 		text-align: center;
 		margin-top:2em;
@@ -299,7 +300,6 @@
 	}
 	/* end of contact us for 480 logical pixels and lower */
 }
-
 /* end of 480px and lower */
 
 /* 481 to 1023 logical pixels */
@@ -320,7 +320,6 @@
 	.narrowPage {
 		float:left;
 		width: 100%;
-		background-color: violet;
 	}
 
 	.fullWidthPage {
@@ -332,7 +331,6 @@
 	.narrowHeader {
 		float:left;
 		width: 100%;
-		background-color: violet;
 	}
 
 	.fullWidthHeader {
@@ -554,11 +552,14 @@
 		text-align: center;
 		font-weight: normal;
 		color: #000000;
-		margin-top: 0.5em;
-		}
+		float: none;
+		margin: 0em auto;	
+		padding-top: 0.5em;
+		padding-bottom: 1em;
+	}
 
 	.content-txt {
-		padding: 2em;
+		padding: 0.5em;
 		font-family: Cambria, Arial, Calibri, Georgia, serif;
 		text-align: center;
 		margin-top:2em;
@@ -613,14 +614,16 @@
 		display: block;
 		max-width: 90%;
 	}
-	/* end of contact us for 481 to 1023 logical pixels*/
+	/* end of contact us for 481 to 1023 logical pixels */
 
+	/* portfolio for 481 to 1023 logical pixels */
 	#pic-roc-fly {
-		max-width: 80%;
+		max-width: 50%;
 		float: right;
 		display: block;
-		margin: 0.1em;
+		margin-top: 3em;
 	}
+	/* end of portfolio for 481 to 1023 logical pixels */
 }
 /* end of 481 to 1023 logical pixels*/
 
@@ -913,7 +916,8 @@
 		text-align: center;
 		font-weight: normal;
 		color: #000000;
-		margin-top: 0.5em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
 	}
 
 	.content-txt {
@@ -1045,7 +1049,6 @@
 	.narrowPage {
 		float:left;
 		width: 70%;
-		background-color: violet;
 	}
 
 	.fullWidthPage {
@@ -1057,7 +1060,6 @@
 	.narrowHeader {
 		float:left;
 		width: 30%;
-		background-color: violet;
 	}
 
 	.fullWidthHeader {
