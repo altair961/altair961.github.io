@@ -12,6 +12,14 @@
 
 /* 480 logical pixels and lower */
 @media screen and (max-width: 480px) {
+	.step {
+		display: none;
+	}
+
+	.link-text {
+		display: inline;
+	}
+
 	.amp {
 		font-family: Baskerville, "Goudy", "Palatino", "Book Antiqua", Georgia, serif;
 		font-style: italic;
@@ -142,10 +150,6 @@
 
 	/* end of logo search set */
 	
-	.step {
-		display: none;
-	}
-
 	#sub-header{
 		display: none;
 	}
@@ -204,12 +208,86 @@
 	
 	}
 
+	/* welcome for 480 logical pixels and lower */
+
+	#step-num {
+		font-family: Cambria, "Palatino", "Book Antiqua", Georgia, Calibri, Arial, serif;
+		font-size: 4.1em;
+		text-align: left;
+		font-weight: normal;
+		color: #7799BB;
+		padding: 0.2em;
+	}
+		
+	#content-title {
+		font-family: Cambria, Arial, Calibri, Georgia, serif;
+		font-size: 3em;
+		text-align: center;
+		font-weight: normal;
+		color: #000000;
+	}
+
+	.content-txt {
+		padding: 2em;
+		font-family: Cambria, Arial, Calibri, Georgia, serif;
+		text-align: center;
+		margin-top:2em;
+		margin-bottom:2em;
+		font-size: 1.5em;
+		line-height: 1.7em;
+		color: #727271;
+		max-width: 90%;
+		float: none;
+		display: block;
+		margin: 0em auto;	
+	}
+
+	#pic-roc-st {
+		max-width: 60%;
+		float: none;
+		display: block;
+		margin: 0em auto;
+	}
+		
+	#pic-resp {
+		float: none;
+		max-width: 60%;
+		display: block;
+		margin: 0em auto;
+	}
+
+	/* end of welcome for 480 logical pixels and lower */
+
+	/* products for 480 logical pixels and lower */
+
+	#step-1 img {
+		float: none;
+		max-width: 90%;
+		display: block;
+		margin: 0em auto;
+	}
+
+	#product-txt {
+		font-family: Cambria, Arial, Calibri, Georgia, serif;
+		font-size: 1.5em;
+		text-align: center;
+		margin: 0em;
+		float: none;
+		width: 100%;
+		line-height: 1.7em;
+		color: #727271;
+	}
+
+	/* end of products for 480 logical pixels and lower */
+
 	/* contact us for 480 logical pixels and lower */
+
 	#telephone {
 		margin: 0 auto;
 		display: block;
 		max-width: 90%;
 	}
+
 	/* end of contact us for 480 logical pixels and lower */
 }
 
@@ -222,6 +300,14 @@
 		font-style: italic;
 	}
 
+	.step {
+		display: none;
+	}
+
+	.link-text {
+		display: none;
+	}
+	
 	.narrowPage {
 		float:left;
 		width: 100%;
@@ -443,76 +529,74 @@
 		display: block;    
 	}
 
-/* welcome for 481 to 1023 logical pixels */
-#step-num {
-	font-family: Cambria, "Palatino", "Book Antiqua", Georgia, Calibri, Arial, serif;
-	font-size: 4.1em;
-	text-align: left;
-	font-weight: normal;
-	color: #7799BB;
-	padding: 0.2em;
+	/* welcome for 481 to 1023 logical pixels */
+	#step-num {
+		font-family: Cambria, "Palatino", "Book Antiqua", Georgia, Calibri, Arial, serif;
+		font-size: 4.1em;
+		text-align: left;
+		font-weight: normal;
+		color: #7799BB;
+		padding: 0.2em;
 	}
-	
-#content-title {
-	font-family: Cambria, Arial, Calibri, Georgia, serif;
-	font-size: 3em;
-	text-align: center;
-	font-weight: normal;
-	color: #000000;
-	margin-top: 0.5em;
+		
+	#content-title {
+		font-family: Cambria, Arial, Calibri, Georgia, serif;
+		font-size: 3em;
+		text-align: center;
+		font-weight: normal;
+		color: #000000;
+		margin-top: 0.5em;
+		}
+
+	.content-txt {
+		padding: 2em;
+		font-family: Cambria, Arial, Calibri, Georgia, serif;
+		text-align: center;
+		margin-top:2em;
+		margin-bottom:2em;
+		font-size: 1.5em;
+		line-height: 1.7em;
+		color: #727271;
+		max-width: 90%;
+		float: none;
+		display: block;
+		margin: 0em auto;	
 	}
 
-.content-txt {
-	padding: 2em;
-	font-family: Cambria, Arial, Calibri, Georgia, serif;
-	text-align: center;
-	margin-top:2em;
-	margin-bottom:2em;
-	font-size: 1.5em;
-	line-height: 1.7em;
-	color: #727271;
-	max-width: 90%;
-	float: none;
-	display: block;
-	margin: 0em auto;
-	
-}
-
-#pic-roc-st {
-	max-width: 60%;
-	float: none;
-	display: block;
-	margin: 0em auto;
+	#pic-roc-st {
+		max-width: 60%;
+		float: none;
+		display: block;
+		margin: 0em auto;
 	}
-#pic-resp {
-	float: none;
-	max-width: 60%;
-	display: block;
-	margin: 0em auto;
+
+	#pic-resp {
+		float: none;
+		max-width: 60%;
+		display: block;
+		margin: 0em auto;
 	}
-/* end of welcome for 481 to 1023 logical pixels */
+	/* end of welcome for 481 to 1023 logical pixels */
 
-/* products for 481 to 1023 logical pixels */
+	/* products for 481 to 1023 logical pixels */
+	#step-1 img {
+		float: none;
+		max-width: 90%;
+		display: block;
+		margin: 0em auto;
+	}
 
-#step-1 img {
-	float: none;
-	max-width: 90%;
-	display: block;
-	margin: 0em auto;
-}
-
-#product-txt {
-	font-family: Cambria, Arial, Calibri, Georgia, serif;
-	font-size: 1.5em;
-	text-align: center;
-	margin: 0em;
-	float: none;
-	width: 100%;
-	line-height: 1.7em;
-	color: #727271;
-}
-
-/* end of products for 481 to 1023 logical pixels */
+	#product-txt {
+		font-family: Cambria, Arial, Calibri, Georgia, serif;
+		font-size: 1.5em;
+		text-align: center;
+		margin: 0em;
+		float: none;
+		width: 100%;
+		line-height: 1.7em;
+		color: #727271;
+	}
+	/* end of products for 481 to 1023 logical pixels */
 
 /* contact us for 481 to 1023 logical pixels */
 #telephone{
@@ -685,8 +769,6 @@
 
 	#header {
 		background-color: #FFFFFF;
-		/* width: 30%;  */
-		/* 360px / 900px */
 		float:left;
 		margin-top: 4.5em;
 	}
@@ -808,7 +890,7 @@
 		color: #7799BB;
 		padding-left: 0.3em;
 		padding-top: 0.3em;
-		}
+	}
 		
 	#content-title {
 		font-family: Cambria, Arial, Calibri, Georgia, serif;
@@ -817,7 +899,8 @@
 		font-weight: normal;
 		color: #000000;
 		margin-top: 0.5em;
-		}
+	}
+
 	.content-txt {
 		font-family: Cambria, Arial, Calibri, Georgia, serif;
 		text-align: center;
@@ -827,29 +910,30 @@
 		width: 44%;
 		line-height: 1.7em;
 		color: #727271;
-		}
+	}
 
 	#step-0 {
 		float: none;
 		display: block;
 		position: relative;
 		margin: 0;
-		border: 0;
-		
+		border: 0;	
 		text-align: center;
 	}
+
 	#pic-roc-st {
 		max-width: 40%;
 		float: none;
 		display: block;
 		margin: 2em;
-		}
+	}
 
-		#pic-resp {
-			float: left;
-			max-width: 50%;
-			margin: 0em;
-			}
+	#pic-resp {
+		float: left;
+		max-width: 50%;
+		margin: 0em;
+	}
+
 	#step-0 p {
 		font-family: Cambria, Arial, Calibri, Georgia, serif;
 		text-align: center;
@@ -977,10 +1061,11 @@
 		display: block;
 		max-width: 90%;
 	}
+
 	.contacts {
 		width: 90%;
 	}
-	/* end of contact us for 481 to 1023 logical pixels*/
 
+	/* end of contact us for 481 to 1023 logical pixels*/
 }
 /* end of 1024px logical pixels and higher */
