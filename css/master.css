@@ -225,6 +225,9 @@
 		text-align: center;
 		font-weight: normal;
 		color: #000000;
+		width: 90%;
+		float: none;
+		margin: 0em auto;	
 	}
 
 	.content-txt {
@@ -277,17 +280,23 @@
 		line-height: 1.7em;
 		color: #727271;
 	}
-
 	/* end of products for 480 logical pixels and lower */
 
+	/* portfolio for 480 logical pixels and lower */
+	#pic-roc-fly {
+		max-width: 80%;
+		float: right;
+		display: block;
+		margin: 0.1em;
+	}
+	/* end of portfolio for 480 logical pixels and lower*/
+	
 	/* contact us for 480 logical pixels and lower */
-
 	#telephone {
 		margin: 0 auto;
 		display: block;
 		max-width: 90%;
 	}
-
 	/* end of contact us for 480 logical pixels and lower */
 }
 
@@ -307,7 +316,7 @@
 	.link-text {
 		display: none;
 	}
-	
+
 	.narrowPage {
 		float:left;
 		width: 100%;
@@ -598,14 +607,20 @@
 	}
 	/* end of products for 481 to 1023 logical pixels */
 
-/* contact us for 481 to 1023 logical pixels */
-#telephone{
-	margin: 0 auto;
-	display: block;
-	max-width: 90%;
-}
-/* end of contact us for 481 to 1023 logical pixels*/
+	/* contact us for 481 to 1023 logical pixels */
+	#telephone{
+		margin: 0 auto;
+		display: block;
+		max-width: 90%;
+	}
+	/* end of contact us for 481 to 1023 logical pixels*/
 
+	#pic-roc-fly {
+		max-width: 80%;
+		float: right;
+		display: block;
+		margin: 0.1em;
+	}
 }
 /* end of 481 to 1023 logical pixels*/
 
