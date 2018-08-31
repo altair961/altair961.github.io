@@ -259,11 +259,9 @@
 		display: block;
 		margin: 0em auto;
 	}
-
 	/* end of welcome for 480 logical pixels and lower */
 
 	/* products for 480 logical pixels and lower */
-
 	#step-1 img {
 		float: none;
 		max-width: 90%;
@@ -288,8 +286,22 @@
 		max-width: 80%;
 		float: right;
 		display: block;
-		margin: 0.1em;
+		margin-top: 0.5em;
+		margin-right: 0.5em;
+		margin-bottom: 2em;
+		margin-left: 0.5em;
 	}
+
+	#pic-portf {
+		border: 0.1em double #CCCCCC;
+		margin: auto;
+		float: none;
+		padding: 0em;
+		display: block;
+		max-width: 60%;
+		margin-bottom: 2em;
+	}
+	
 	/* end of portfolio for 480 logical pixels and lower*/
 	
 	/* contact us for 480 logical pixels and lower */
@@ -325,7 +337,6 @@
 	.fullWidthPage {
 		float:left;
 		width: 100%;
-		background-color: yellowgreen;
 	}
 
 	.narrowHeader {
@@ -336,7 +347,6 @@
 	.fullWidthHeader {
 		float:left;
 		width: 100%;
-		background-color: yellowgreen;
 	}
 
 	.badge.welcome {
@@ -608,6 +618,28 @@
 	}
 	/* end of products for 481 to 1023 logical pixels */
 
+	/* portfolio for 481 to 1023 logical pixels */
+	#pic-roc-fly {
+		max-width: 50%;
+		float: right;
+		display: block;
+		margin-top: 0.5em;
+		margin-right: 0.5em;
+		margin-bottom: 2em;
+		margin-left: 0.5em;
+	}
+
+	#pic-portf {
+		border: 0.1em double #CCCCCC;
+		margin: auto;
+		float: none;
+		padding: 0em;
+		display: block;
+		max-width: 60%;
+		margin-bottom: 2em;
+	}
+	/* end of portfolio for 481 to 1023 logical pixels */
+	
 	/* contact us for 481 to 1023 logical pixels */
 	#telephone{
 		margin: 0 auto;
@@ -615,15 +647,6 @@
 		max-width: 90%;
 	}
 	/* end of contact us for 481 to 1023 logical pixels */
-
-	/* portfolio for 481 to 1023 logical pixels */
-	#pic-roc-fly {
-		max-width: 50%;
-		float: right;
-		display: block;
-		margin-top: 3em;
-	}
-	/* end of portfolio for 481 to 1023 logical pixels */
 }
 /* end of 481 to 1023 logical pixels*/
 
@@ -1007,7 +1030,10 @@
 		max-width: 300px;
 		float: right;
 		display: block;
-		margin: 0.1em;
+		margin-top: 0.5em;
+		margin-right: 0.5em;
+		margin-bottom: 2em;
+		margin-left: 0.5em;
 	}
 
 	#pic-portf {
@@ -1054,7 +1080,6 @@
 	.fullWidthPage {
 		float:left;
 		width: 100%;
-		background-color: yellowgreen;
 	}
 
 	.narrowHeader {
@@ -1065,7 +1090,6 @@
 	.fullWidthHeader {
 		float:left;
 		width: 100%;
-		background-color: yellowgreen;
 	}
 
 	/* end of portfolio for 1024 logical pixels and higher */
